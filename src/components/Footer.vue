@@ -1,7 +1,7 @@
 <template>
     <div class=" flex items-end justify-between flex-wrap pt-10 max-lg:block">
         <div >
-            <a href="#">
+            <a href="/">
                 <h2 class="text-5xl font-bold mb-5 ">Paviul</h2>
             </a>
             <div class="flex flex-col mb-3 ">

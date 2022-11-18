@@ -109,7 +109,6 @@
                     font-bold
                     p-2 
                     shadow-lg 
-                    hover:shadow-cyan-500/50 
                     text-base 
                     text-white 
                     rounded-3xl 

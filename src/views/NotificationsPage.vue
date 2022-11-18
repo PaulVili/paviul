@@ -1,7 +1,10 @@
 <template>
   <div>
     <HeaderAuthorized />
-        <h2>sdfsdfdsgsdgsdghds</h2>
+    <div class="min-h-[500px] pt-28">
+      <h2 class="text-center text-5xl font-bold">Notifications</h2>
+    </div>
+        
     <Footer></Footer>
   </div>
 </template>

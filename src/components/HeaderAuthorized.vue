@@ -12,7 +12,7 @@
             </a>
             <div class="flex flex-row">
                 <button @click="profileMenuOpen = !profileMenuOpen"
-                    class="ml-10 w-9 h-9 bg-white flex flex-row align-center justify-around pt-1.5 rounded-full transition ease-in-out delay-150 hover:border-2 border-black border-solid hover:pt-1">
+                    class="ml-10 w-9 h-9 mr-2 bg-white flex flex-row align-center justify-around pt-1.5 rounded-full transition ease-in-out delay-150 hover:border-2 border-black border-solid hover:pt-1">
                     <div class="w-6 h-6 p-2 rounded-full"
                         style="background: linear-gradient(135deg, rgb(253, 34, 173), rgb(237, 86, 85))">
                         <img src="">
@@ -125,7 +125,7 @@
                 <div class="flex flex-row mt-2">
                     <a href="/activity" class="mr-2 p-2 rounded-3xl h-10 block transition ease-in-out delay-150 hover:bg-gray-300 ">Activity</a>
                     <div class="rounded-full w-2 h-2 flex flex-row mt-1">
-                        <router-link to="/notifications"><a href="/notifications"><svg class=" rounded-full bg-white transition ease-in-out delay-150 hover:border-2 border-black border-solid hover:p-1.5 p-2" width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg></a></router-link>
+                        <a href="/notifications"><svg class=" rounded-full bg-white transition ease-in-out delay-150 hover:border-2 border-black border-solid hover:p-1.5 p-2" width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg></a>
                     </div>  
                     <button 
                         @click="profileMenuOpen = !profileMenuOpen"
@@ -143,7 +143,6 @@
                                             font-bold
                                             p-2 
                                             shadow-lg 
-                                            hover:shadow-cyan-500/50 
                                             text-base 
                                             text-white 
                                             rounded-3xl 

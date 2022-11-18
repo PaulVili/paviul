@@ -1,28 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomePage from '../views/HomePage.vue';
-
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'HomePage',
-    component: HomePage,
-    children: [
-      {
-        path: '/profile',
-        name: 'ProfilePage',
-        component: () => import('../views/ProfilePage.vue')
-      },
-      
-    ]
+    component: () => import('../views/HomePage.vue')    
   },
   {
     path: '/notifications',
     name: 'NotificationsPage',
     component: () => import('../views/NotificationsPage.vue')
-  }
+  },
+  {
+    path: '/profile',
+    name: 'ProfilePage',
+    component: () => import('../views/ProfilePage.vue')
+  },
+  {
+    path: '/activity',
+    name: 'ActivityPage',
+    component: () => import('../views/ActivityPage.vue')
+  },
+  {
+    path: '/settings',
+    name: 'SettingsPage',
+    component: () => import('../views/SettingsPage.vue')
+  },
+  {
+    path: '/balance',
+    name: 'MarketPlaceBalancePage',
+    component: () => import('../views/MarketPlaceBalancePage.vue')
+  },
 ]
 
 const router = new VueRouter({
