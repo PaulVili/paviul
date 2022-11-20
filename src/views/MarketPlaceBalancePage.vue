@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderAuthorized />
-    <div class="min-h-[500px] pt-28">
+    <div class="min-h-[500px] py-28">
         <div class="flex justify-center">
             <div class="p-10 bg-white w-3/6 flex flex-col items-left rounded-xl border-2 border-solid shadow-md ">
                 <h2 class="text-3xl font-bold">Marketplace Balance</h2>
